@@ -1,5 +1,3 @@
-import requests
-from bs4 import BeautifulSoup
 from bookscrap.requester import get_soup
 
 
@@ -8,8 +6,6 @@ def get_book_info(url):
     # un dictionnaire.
 
     soup = get_soup(url)
-
-    product_page_url = url
 
     title = soup.find(
         'div', {'class': 'col-sm-6 product_main'}).find('h1').get_text()

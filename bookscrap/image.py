@@ -1,6 +1,4 @@
 import requests
-from bs4 import BeautifulSoup
-from bookscrap.requester import get_soup
 
 
 def download_image(image_url, image_name):

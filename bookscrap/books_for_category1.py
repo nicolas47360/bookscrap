@@ -1,5 +1,3 @@
-import requests
-from bs4 import BeautifulSoup
 import csv
 from bookscrap.requester import get_soup
 from bookscrap.links_pages import get_category_pages_urls

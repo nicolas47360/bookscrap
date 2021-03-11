@@ -1,9 +1,3 @@
-
-import requests
-from bs4 import BeautifulSoup
-from bookscrap.requester import get_soup
-
-
 def get_count_pages(soup):
     # Fonction permettant de donner le nombre de page d'une catégorie.
 

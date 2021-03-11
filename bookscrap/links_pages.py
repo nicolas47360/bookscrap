@@ -1,6 +1,3 @@
-import requests
-from bs4 import BeautifulSoup
-from bookscrap.requester import get_soup
 from bookscrap.count_pages import get_count_pages
 
 
