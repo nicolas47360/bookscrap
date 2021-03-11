@@ -2,7 +2,7 @@ import csv
 from bookscrap.requester import get_soup
 from bookscrap.links_pages import get_category_pages_urls
 from bookscrap.book_links import get_book_links
-from bookscrap.book_info1 import get_book_info
+from bookscrap.book_info import get_book_info
 from bookscrap.image import download_image
 
 

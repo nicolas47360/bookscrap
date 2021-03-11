@@ -1,5 +1,5 @@
 from bookscrap.categories import get_categories
-from bookscrap.books_for_category1 import get_books_for_category1
+from bookscrap.books_for_category import get_books_for_category
 
 
 def get_books_for_categories():
@@ -10,4 +10,4 @@ def get_books_for_categories():
     categories = get_categories(url)
 
     for category_name, category_url in categories.items():
-        get_books_for_category1(category_url, category_name)
+        get_books_for_category(category_url, category_name)
